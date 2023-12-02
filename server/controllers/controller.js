@@ -43,7 +43,7 @@ const updateRecord = (req,res) => {
     const{id} = req.params
     const{artist_name, album_name, album_price, album_img} = req.body
 
-    const item = RECORDS_DATA.find((record) => record.id!==+id)
+    const item = RECORDS_DATA.find((record) => record.id===+id)
 
     item.artist_name = artist_name || item.artist_name
     item.album_name = album_name || item.album_name
