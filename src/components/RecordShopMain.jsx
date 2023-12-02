@@ -14,10 +14,10 @@ const RecordShopMain = ({initialRecordList})=>{
 
 const addArtistCard = async()=>{
     const {data} = await axios.post('/api/record',{
+        album_img:'NULL',//stateinput,
         artist_name: 'NULL', //stateinputgoeshere
         album_name: 'NULL', //stateinputgoeshere
-        album_price: 0,//stateinput
-        album_img:'NULL'//stateinput,
+        album_price: 0//stateinput
     })
 
 let newRecord={...data, isEditing: true}
@@ -47,6 +47,9 @@ return(
         <h1 className = "record-shop-header">The Record Shop</h1>
          <div className='record-form'>
             <AddRecordForm/>
+         </div>
+         <div>
+            {addArtistCard}
          </div>
          <div className='record-list'>
             {recordCards}

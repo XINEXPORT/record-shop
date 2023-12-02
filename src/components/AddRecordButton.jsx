@@ -1,6 +1,8 @@
+import './AddRecordForm.css'
+
 const AddRecordButton=({addArtist})=>{
     return(
-        <div>
+        <div className="record-btn">
             <span colSpan="4">
             <button onClick={addArtist}>Add</button>
             </span>
