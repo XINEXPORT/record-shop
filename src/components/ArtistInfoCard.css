@@ -1,0 +1,12 @@
+div.record-card {
+    background-color: beige;
+    border-radius: 4px;
+    border: 3px solid black;
+    margin: 2em;
+    padding: 1em;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    min-width: 200px;
+    min-height: 320px;
+  }
