@@ -11,16 +11,17 @@ The user must provide the following:
   * The album art must be a URL to a public image
  
 # Edit Button
- 
-![edit](https://github.com/XINEXPORT/record-shop/assets/40744735/71d78519-37e7-405b-ac9f-4baaa717659b)
+![edit](https://github.com/XINEXPORT/record-shop/assets/40744735/3bc4550d-de09-4348-aec6-108a0123edc5)
+
 
 
 # Delete Button
-![del](https://github.com/XINEXPORT/record-shop/assets/40744735/028395a9-8c57-4ffb-b177-08d695e984ad)
+![del](https://github.com/XINEXPORT/record-shop/assets/40744735/abcd82dc-2cc1-423f-ba6d-4cba7e57bf00)
+
 
 
 # Save Button
-![save](https://github.com/XINEXPORT/record-shop/assets/40744735/afaa87e8-24e5-46d8-8cf1-df8c3c0b4473)
+![save](https://github.com/XINEXPORT/record-shop/assets/40744735/683dfa23-d255-4ae2-a5fd-77614c4d98d3)
 
 
 
