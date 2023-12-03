@@ -9,8 +9,18 @@ The user must provide the following:
 * album price
 * album art
   * The album art must be a URL to a public image
+ 
+# Edit Button
+ 
+![edit](https://github.com/XINEXPORT/record-shop/assets/40744735/71d78519-37e7-405b-ac9f-4baaa717659b)
 
 
+# Delete Button
+![del](https://github.com/XINEXPORT/record-shop/assets/40744735/028395a9-8c57-4ffb-b177-08d695e984ad)
+
+
+# Save Button
+![save](https://github.com/XINEXPORT/record-shop/assets/40744735/93001eae-7bc5-4f46-b0c9-fde1ca04e278)
 
 
 
