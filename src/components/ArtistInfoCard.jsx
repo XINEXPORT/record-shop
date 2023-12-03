@@ -4,6 +4,7 @@ import EditArtistModeButtons from  "./EditArtistModeButtons"
 import EditArtistNameCell from "./EditArtistNameCell"
 import EditAlbumNameCell from "./EditAlbumNameCell"
 import EditAlbumPriceCell from "./EditAlbumPriceCell"
+import EditAlbumImgCell from "./EditAlbumImageCell"
 import axios from "axios"
 import {useState} from "react"
 
@@ -37,7 +38,8 @@ const setNormalMode=async()=>{
 
 return(
     <div className= "record-card">
-        {/* <div>{albumImg}</div> */}
+        {/* <EditAlbumImgCell value={album_img} isEditing={isEditing} onValueChange={setalbum_img}/> */}
+        <EditAlbumImgCell value={album_img} isEditing={isEditing} onValueChange={setalbum_img}/>
         <EditArtistNameCell value={artist_name} isEditing={isEditing} onValueChange={setartist_name}/>
         <EditAlbumNameCell value={album_name} isEditing={isEditing} onValueChange={setalbum_name}/>
         <EditAlbumPriceCell value={album_price} isEditing={isEditing} onValueChange={setalbum_price}/>

@@ -5,5 +5,4 @@ function App({initialRecordList}){
     return <RecordShopMain initialRecordList ={initialRecordList}/>
 }
 
-
 export default App;

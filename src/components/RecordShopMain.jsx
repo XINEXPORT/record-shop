@@ -14,10 +14,10 @@ const RecordShopMain = ({initialRecordList})=>{
 
 const addArtistCard = async()=>{
     const {data} = await axios.post('/api/record',{
-        album_img:'NULL',//stateinput,
-        artist_name: 'NULL', //stateinputgoeshere
-        album_name: 'NULL', //stateinputgoeshere
-        album_price: 0//stateinput
+        album_img: {album_img},//stateinputgoeshere,
+        artist_name: {artist_name}, //stateinputgoeshere
+        album_name: {album_name}, //stateinputgoeshere
+        album_price: {album_price}//stateinput
     })
 
 let newRecord={...data, isEditing: true}
@@ -30,7 +30,7 @@ const deleteArtistCard = async(id)=>{
 }
 
 const recordCards= recordList.map((recordItem)=>{
-    const {id, artist_name, album_name, album_price, album_img, isEditing}= recordItem
+    const {id, artist_name, album_name, album_price, album_img, isEditing} = recordItem
     return(
             <ArtistInfoCard
             key={id}
@@ -45,13 +45,10 @@ const recordCards= recordList.map((recordItem)=>{
 return(
     <main>
         <h1 className = "record-shop-header">The Record Shop</h1>
-         <div className='record-form'>
+         <div>
             <AddRecordForm/>
          </div>
-         <div>
-            {addArtistCard}
-         </div>
-         <div className='record-list'>
+         <div className='record-cards'>
             {recordCards}
          </div>
     </main>
