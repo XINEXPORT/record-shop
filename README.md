@@ -12,7 +12,7 @@ The user must provide the following:
 
 # Add A Record Button <br>
 ![addbtn](https://github.com/XINEXPORT/record-shop/assets/40744735/c0013d19-1785-47c5-a218-d929b0f9a766) <br>
-The Add Record button creates a new record item at the end of the record list. The user can then add their new record content by clicking the edit button. <br>
+The Add Record button can be found at the top of the screen. Clicking the button creates a new record item at the end of the record list. The user can then add their new record content by clicking the edit button. <br>
 ![addrecordcard](https://github.com/XINEXPORT/record-shop/assets/40744735/b73c47f8-a8b3-41a7-afc8-b42c0c9e9bd9)
 
 # Display <br>
