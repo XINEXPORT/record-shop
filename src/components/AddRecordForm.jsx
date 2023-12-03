@@ -44,7 +44,6 @@ return (
     <input id="album-price" type="text" value={album_price} onChange={handleAlbumPriceChange}/>
     <br></br>
 
-    <AddRecordButton/>
 </form>
 )
 }

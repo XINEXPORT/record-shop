@@ -12,23 +12,13 @@ The user must provide the following:
 
 # Add A Record Form
 
-
-
 # Add A Record Button
-
-
 
 # Display
 
-
- 
 # Edit Button
 
-
-
 # Delete Button
-
-
 
 # Save Button
 

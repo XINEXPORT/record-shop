@@ -18,6 +18,7 @@ const [album_price, setalbum_price]=useState(initialRecordData.album_price)
 
 const setEditMode=()=>setisEditing(true)
 const setNormalMode=async()=>{
+    try{
     const{data} = await axios.put(`/api/record/${initialRecordData.id}`, {
         album_img: album_img,
         artist_name: artist_name,
@@ -28,8 +29,14 @@ const setNormalMode=async()=>{
     setartist_name(data.artist_name)
     setalbum_name(data.album_name)
     setalbum_price(data.album_price)
-    setisEditing(false)
-}
+
+    setisEditing(false);
+
+} catch (error) {
+    console.error('Error updating record:', error);
+    // Handle error if necessary
+  }
+};
 
 return(
     <div className= "record-card">
