@@ -28,19 +28,19 @@ const addContent = (e)=>{
 
 return (
 <form className="record-form" onSubmit={addContent}>
-    <label htmlFor="album-img">Album IMG URL</label>
+    <label htmlFor="album-img">Album Art URL:</label>
     <input id ="album-img" type="text" value={album_img} onChange={handleAlbumImg}/>
     <br></br>
 
-    <label htmlFor="artist-name">Artist Name</label>
+    <label htmlFor="artist-name">Artist Name:</label>
     <input id="artist-name" type="text" value={artist_name} onChange={handleArtistNameChange}/>
     <br></br>
 
-    <label htmlFor="album-name">Album Name</label>
+    <label htmlFor="album-name">Album Name:</label>
     <input id="album-name" type="text" value={album_name} onChange={handleAlbumNameChange}/>
     <br></br>
 
-    <label htmlFor="album-price">Album Price</label>
+    <label htmlFor="album-price">Album Price:</label>
     <input id="album-price" type="text" value={album_price} onChange={handleAlbumPriceChange}/>
     <br></br>
 

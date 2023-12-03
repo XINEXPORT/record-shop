@@ -1,4 +1,5 @@
 //This is like InvoiceTableRow//
+import './ArtistInfoCard.css'
 import formatCurrency from "../utils/formatCurrency"
 import EditArtistModeButtons from  "./EditArtistModeButtons"
 import EditArtistNameCell from "./EditArtistNameCell"
