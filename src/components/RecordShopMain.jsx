@@ -9,19 +9,17 @@ import {useState} from 'react';
 
 const RecordShopMain = ({initialRecordList})=>{
     const[recordList, setRecordList]=useState(initialRecordList);
-    console.log(recordList)
-
 
 const addArtistCard = async()=>{
     const {data} = await axios.post('/api/record',{
-        album_img: {album_img},//stateinputgoeshere,
-        artist_name: {artist_name}, //stateinputgoeshere
-        album_name: {album_name}, //stateinputgoeshere
-        album_price: {album_price}//stateinput
+        album_img: {album_img},
+        artist_name: {artist_name},
+        album_name: {album_name},
+        album_price: {album_price}
     })
 
 let newRecord={...data, isEditing: true}
-setRecordList([newRecord,...recordList])
+    setRecordList([newRecord,...recordList])
 }
 
 const deleteArtistCard = async(id)=>{
@@ -33,10 +31,10 @@ const recordCards= recordList.map((recordItem)=>{
     const {id, artist_name, album_name, album_price, album_img, isEditing} = recordItem
     return(
             <ArtistInfoCard
-            key={id}
-            initialRecordData={{id, artist_name, album_name, album_price, album_img}}
-            initialIsEditing={isEditing}
-            onDeleteCard={()=> deleteArtistCard(id)}
+                key={id}
+                initialRecordData={{id, artist_name, album_name, album_price, album_img}}
+                initialIsEditing={isEditing}
+                onDeleteCard={()=> deleteArtistCard(id)}
         />
     )
 }

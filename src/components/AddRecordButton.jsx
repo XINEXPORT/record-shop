@@ -1,8 +1,8 @@
 import './AddRecordForm.css'
 
-const AddRecordButton=({addArtist})=>{
+const AddRecordButton=({addContent})=>{
     return(
-            <button className="record-btn" onClick={addArtist}>Add</button>
+            <button className="record-btn" onClick={addContent}>Add</button>
     )
 }
 

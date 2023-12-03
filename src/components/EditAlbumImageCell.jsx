@@ -8,7 +8,7 @@ const EditAlbumImgCell = ({value, isEditing, onValueChange})=>{
      </div>
    ):(
     <div>
-        <img src={value} alt="Album cover" width="100" height="100" />
+        <img src={value} alt="Album cover" width="200" height="200" />
     </div>
    )}
 

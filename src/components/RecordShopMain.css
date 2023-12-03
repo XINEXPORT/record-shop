@@ -10,8 +10,9 @@
 .record-cards{
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
-    grid-gap: 20px;
+    grid-gap: 50px;
     align-items: center;
+    margin-bottom: 100px;
 }
 .record-shop-header{
     font-size: 5em;

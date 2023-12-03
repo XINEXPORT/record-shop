@@ -30,15 +30,8 @@ const setNormalMode=async()=>{
     setisEditing(false)
 }
 
-// const albumImg = RECORDS_DATA.map((record) => (
-//     <div key={record.artist}>
-//         <img src={record.album_img} width="500" height="500" alt={`Album cover for ${record.artist}`} />
-//     </div>
-// ));
-
 return(
     <div className= "record-card">
-        {/* <EditAlbumImgCell value={album_img} isEditing={isEditing} onValueChange={setalbum_img}/> */}
         <EditAlbumImgCell value={album_img} isEditing={isEditing} onValueChange={setalbum_img}/>
         <EditArtistNameCell value={artist_name} isEditing={isEditing} onValueChange={setartist_name}/>
         <EditAlbumNameCell value={album_name} isEditing={isEditing} onValueChange={setalbum_name}/>
