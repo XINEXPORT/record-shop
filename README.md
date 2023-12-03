@@ -8,7 +8,7 @@ The user must provide the following data:
 * album name
 * album price
 * album art
-  * The album art must be a public URL image
+  * The album art must be a URL to a public image
 
 
 
