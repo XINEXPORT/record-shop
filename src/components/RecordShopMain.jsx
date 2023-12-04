@@ -40,6 +40,7 @@ const recordCards = recordList.map((recordItem)=>{
     )
 }
 )
+console.log(recordCards);
 
 return(
     <main>
