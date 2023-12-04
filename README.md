@@ -24,10 +24,6 @@ The display view will show the current record list. Each record card contains an
 The edit button will allow editing of the album image, artist name, album name, and album price fields. <br>
 ![editmode](https://github.com/XINEXPORT/record-shop/assets/40744735/67adbb37-abc1-4bd6-be16-2fc8b955ad34)
 
-# Delete Button <br>
-![del](https://github.com/XINEXPORT/record-shop/assets/40744735/a034265b-5ec3-4316-84bb-e9b6d598a2a3) <br>
-The delete button will delete the record from the display view.
-
 # Save Button <br>
 ![save](https://github.com/XINEXPORT/record-shop/assets/40744735/159faead-a750-4889-9023-af78dbaa42dc) <br>
 The save button will save all of the content in the edit fields and will update the display accordingly.
@@ -35,8 +31,9 @@ The save button will save all of the content in the edit fields and will update 
 Saved Content <br>
 ![newcontent](https://github.com/XINEXPORT/record-shop/assets/40744735/c3639eff-6681-4a65-bffa-bf27ef1945be)
 
-
-
+# Delete Button <br>
+![del](https://github.com/XINEXPORT/record-shop/assets/40744735/a034265b-5ec3-4316-84bb-e9b6d598a2a3) <br>
+The delete button will delete the record from the display view.
 
 
 
