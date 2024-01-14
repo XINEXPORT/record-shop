@@ -1,7 +1,7 @@
 ## The Record Shop
 Project 1, AKA the “NoDB” Project. DevMountain, DallasFT3
 
-The record shop is an app where music enthusiasts can upload their records and publish to an online store for purchasing. The record shop has two components: the add a record button and the records display. The user can upload their records by clicking the Add Record button located at the top of the screen, view their record shop, edit the contents of each record, and delete records from the record shop.
+The record shop is an app where music collectors can upload their records and publish to an online store for purchasing. The record shop has two components: the add a record button and the records display. The user can upload their records by clicking the Add Record button located at the top of the screen, view their record shop, edit the contents of each record, and delete records from the record shop.
 
 The user must provide the following:
 * Artist Name
