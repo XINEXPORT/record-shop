@@ -1,7 +1,8 @@
 import './App.css';
 import RecordShopMain from './components/RecordShopMain.jsx'
 
-function App({initialRecordList}){
+function App({initialRecordList}){ 
+    <h>Hello From Ampify</h>
     return <RecordShopMain initialRecordList ={initialRecordList}/>
 }
 
