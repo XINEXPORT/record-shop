@@ -14,7 +14,8 @@ const port = '8000'
 app.use(morgan('dev'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
-
+app.use(express.static("public"))
+app.use(express.static("index.html"))
 ViteExpress.config({ printViteDevServerHost: true });
 
 // Routes go here
