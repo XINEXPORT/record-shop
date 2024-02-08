@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "start": "nodemon server/app.js -w src -w server/app.js",
   "scripts": {
+    "start": "nodemon server/app.js -w src -w server/app.js",
     "dev": "nodemon server/app.js -w src -w server/app.js",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
